@@ -2,6 +2,8 @@
 
 *NoiseRings* is a noisy emenating ring effect for Unity adapted with permission from the VR music video experience [Chorus].
 
+![Noisy rings emenate from a central source](preview.gif)
+
 ## Usage
 
 An example is provided in `Assets/Example/ExampleScene.unity`. Attach a `NoiseRingSource` component to the GameObject you would like the noise rings to emenate from. For the `NoiseRingSource` to render correctly the `UpdateShaderGlobals` component must be attached to a GameObject in the scene. The noise ring animation can be triggered by calling `Trigger()` on the `NoiseRingSource`.
