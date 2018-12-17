@@ -91,9 +91,6 @@ namespace NoiseRings
 			{
 				ringMaterial = new Material(ringShader);
 				ringMaterial.hideFlags = HideFlags.HideAndDontSave;
-				ringMaterial.EnableKeyword("RING_MODE");
-				ringMaterial.DisableKeyword("LINE_MODE");
-				ringMaterial.DisableKeyword("ARC_MODE");
 
 				propertyBlock = new MaterialPropertyBlock();
 			}
