@@ -1,20 +1,20 @@
 # NoiseRings
 
-*NoiseRings* is a noisy emenating ring effect for Unity adapted with permission from the VR music video experience [Chorus]. Tested with Unity 2018.3.0f2.
+*NoiseRings* is a noisy emanating ring effect for Unity adapted with permission from the VR music video experience [Chorus]. Tested with Unity 2018.3.0f2.
 
-![Noisy rings emenate from a central source](preview.gif)
+![Noisy rings emanate from a central source](preview.gif)
 
 ## Usage
 
-An example is provided in `Assets/Example/ExampleScene.unity`. Attach a `NoiseRingSource` component to the GameObject you would like the noise rings to emenate from. For the `NoiseRingSource` to render correctly the `UpdateShaderGlobals` component must be attached to a GameObject in the scene. The noise ring animation can be triggered by calling `Trigger()` on the `NoiseRingSource`.
+An example is provided in `Assets/Example/ExampleScene.unity`. Attach a `NoiseRingSource` component to the GameObject you would like the noise rings to emanate from. For the `NoiseRingSource` to render correctly the `UpdateShaderGlobals` component must be attached to a GameObject in the scene. The noise ring animation can be triggered by calling `Trigger()` on the `NoiseRingSource`.
 
 ## Settings
 
  Name | Type | Description
 :---- |:---- |:-----------
 Number Of Segments | `int` | Number of segments in the generated ring mesh. Increase this value if the rings appear too jagged.
-Number Of Rings | `int` | Number of rings to emenate when the animation is triggered.
-Radial Offset | `float` | Radial distance between the rings when emenated. This allows you to control how far apart the rings appear to be spaced. Note that the distance will shrink as the animation progresses and the rings will converge at the end.
+Number Of Rings | `int` | Number of rings to emanate when the animation is triggered.
+Radial Offset | `float` | Radial distance between the rings when emanated. This allows you to control how far apart the rings appear to be spaced. Note that the distance will shrink as the animation progresses and the rings will converge at the end.
 Line Texture | `Texture2D` | Texture to use for rendering the ring lines. The texture will be stretched horizontally around the circumference of the ring.
 Color | `Color` | Line color.
 Multiplier | `float` | Line color multiplier.
