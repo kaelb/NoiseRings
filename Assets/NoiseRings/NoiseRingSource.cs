@@ -151,16 +151,12 @@ namespace NoiseRings
 			);
 
 			float radius;
-			float minRadius = endRadius;
-			float maxRadius = 0.0f;
 			float radialProgress;
 			float height;
 			float intensity;
 			for (int i = 0; i < numberOfRings; i++)
 			{
 				radius = Mathf.Lerp(-radialOffset * i, endRadius, animationProgress);
-				minRadius = Mathf.Min(minRadius, radius);
-				maxRadius = Mathf.Max(maxRadius, radius);
 				if (radius < 0.0f)
 					continue;
 				
