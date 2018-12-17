@@ -1,6 +1,6 @@
 # NoiseRings
 
-*NoiseRings* is a noisy emenating ring effect for Unity adapted with permission from the VR music video experience [Chorus].
+*NoiseRings* is a noisy emenating ring effect for Unity adapted with permission from the VR music video experience [Chorus]. Tested with Unity 2018.3.0f2.
 
 ![Noisy rings emenate from a central source](preview.gif)
 
